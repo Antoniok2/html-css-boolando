@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* regole impostazione */
+.product img{
+    float: left;
+    width: calc(100% / 3);
+    object-fit: cover;
+}
