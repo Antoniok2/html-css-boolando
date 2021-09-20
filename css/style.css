@@ -12,8 +12,30 @@
 
 
 /* regole impostazione */
-.product img{
+.product{
     float: left;
     width: calc(100% / 3);
+    text-align: left;
     object-fit: cover;
+    position: relative;
+}
+
+.discount{
+    padding: 10px;
+    font-size: 20px;
+    background-color: red;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+}
+.sostenibilita{
+    padding: 10px;
+    font-size: 20px;
+    background-color: green;
+    position: absolute;
+    bottom: 100px;
+    left: 65px;
+}
+span{
+    color: red;
 }
