@@ -3,8 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-#clearfix::after{
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -18,19 +21,23 @@
     text-align: left;
     object-fit: cover;
     position: relative;
+    cursor: pointer;
+}
+img{
+    width: 100%;
 }
 
 .discount{
-    padding: 10px;
-    font-size: 20px;
+    padding: 3px;
+    font-size: 15px;
     background-color: red;
     position: absolute;
     bottom: 100px;
     left: 0;
 }
 .sostenibilita{
-    padding: 10px;
-    font-size: 20px;
+    padding: 3px;
+    font-size: 15px;
     background-color: green;
     position: absolute;
     bottom: 100px;
@@ -38,4 +45,15 @@
 }
 span{
     color: red;
+}
+
+.cuore{
+    color: black;
+    position: absolute;
+    width: 100%;
+    left: 95%;
+    top: 2%;
+    background-color: white;
+    margin: 1px;
+    padding: 2px;
 }
