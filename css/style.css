@@ -27,6 +27,9 @@ img{
     width: 100%;
     display: block;
 }
+
+
+/* regole hover */
 .show{
     display: block;
 }
@@ -40,6 +43,9 @@ img{
 .product:hover .show{
     display:none;
 }
+
+
+
 
 .discount{
     padding: 3px;
