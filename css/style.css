@@ -25,14 +25,20 @@ main{
 }
 img{
     width: 100%;
+    display: block;
 }
-
-.hover{
+.show{
+    display: block;
+}
+.hidden{
     display: none;
 }
 
-.product:hover .hover{
-    display: inline-block;
+.product:hover .hidden{
+    display: block;
+}
+.product:hover .show{
+    display:none;
 }
 
 .discount{
